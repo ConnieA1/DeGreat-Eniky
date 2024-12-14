@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(205, 247, 217);
+}
+
+ h1 {
+   font-weight: bolder;
+   font-family: roboto;
+    text-align: center;
+    color: darkblue;
+ }
+
+p {
+   padding: 5px;
+}
+
+.header_section {
+  display:inline-flex;
+  background-color: #aeb404;
+  width: 100%;
+}
+
+ .navlink {
+  position:relative;
+  font-weight:bold;
+  margin-left: 150px;
+}
+
+ .navbar {
+  display: flex;
+  list-style: none;
+  margin-top:60px;
+  margin-right:560px;
+}
+
+ .navbar a {
+  color: rgb(251, 249, 249);
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color:rgb(6, 92, 34);
+ }
+
+ .navbar a:hover {
+  background-color: #656665;
+ }
+
+ .navbar li a:active {
+  background-color: red;
+ }
+
+ #logo {
+  margin: 20px 0px 15px 70px;
+  width: 120px;
+  height: 80px;
+ }
+
+ .footer_section {
+  background-color: #5e610e;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footers {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  padding:5px 50px 5px 50px;
+  margin-right: 45px;
+}
+
+.footer_text {
+  color: white;
+  font-size: 70%;
+}
+
+ .copyright {
+  color: black;
+  text-align: center;
+  display:block;
+  padding: 5px;
+ }
+
+
+.mySlides {display: none;}
+
+.image {vertical-align: middle;
+  width: 100%;
+  height: 400px;
+  opacity: .9;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  vertical-align:bottom;
+  display: inline-block;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+  background-color: #bb5d05;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}*/
+
+.kids {
+  font-family: serif;
+  color: rgb(249, 9, 9);
+}
+
+.detail-box {
+  color: brown;
+}
+
+.details {
+  font-family:sans-serif;
+  font-weight: bolder;
+  font-size:18px;
+  color: rgb(21, 12, 0);
+  margin-bottom: 3%;
+  margin-top: 3%;
+  -webkit-text-stroke: .5px white
+}
+
+.btn-box {
+  font-size: 20px;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+.btn-1,.btn-2{
+  color: white;
+  font-family:sans-serif;
+  background-color: #d84c4c;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.btn-1 {
+  background-color: #985454;
+}
+
+.btn-2 {
+  background-color: rgb(6, 168, 114);
+  margin-left: 40px;
+}
+
+.btn-1:hover, .btn-2:hover {
+  background-color: #afb801;
+}
+
+.info {
+  padding: 30px;
+}
+
+.infos {
+  text-align: left;
+  color: #b85702;
+  font-weight: 600;
+  margin: 10px 70px 0px 70px;
+  line-height: 1.5;
+}
+
+blockquote {
+  padding: 20px 50px 20px;
+      border-left: 4px solid #ff9600;
+      font-size: 16px;
+    }
+
+.gallery {
+  display: inline;
+  width: 60%;
+  height:auto;
+}    
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.navbar1 {
+  display: none;
+}
+
+#teacher {
+  width: 50%;
+  padding-top: 5%;
+}
+
+.teachers {
+  display: flexbox;
+}
+
+#banner {
+  width: 58%;
+  padding: 0px 0px 80px 20px;
+  float: left;
+}
+
+#address {
+  width: 41%;
+}
+
+
+#banner1 {
+  width: 60%;
+  height: 2%;
+  padding: 2%;
+}
