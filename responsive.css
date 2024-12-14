@@ -1,5 +1,5 @@
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
     .text {font-size: 11px}
     .navlink {
       display: none;
@@ -85,7 +85,7 @@
     position: absolute;
     width: auto;
     height: 30px;
-    margin: 40px 20px 10px 350px;
+    margin: 40px 20px 10px 285px;
   }
 
   .footers,.copyright {
